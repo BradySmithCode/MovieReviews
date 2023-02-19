@@ -7,7 +7,10 @@ export default function NavigationBar() {
       <Container>
         <Navbar.Brand href="/">Movie Database</Navbar.Brand>
         <Nav.Link href="/" style={{ color: "white" }}>
-          Movies
+          Movie Reviews
+        </Nav.Link>
+        <Nav.Link href="/add-review" style={{ color: "white" }}>
+          Add Movie
         </Nav.Link>
       </Container>
     </Navbar>

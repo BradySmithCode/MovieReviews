@@ -1,19 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import data from "../movieData/movies.json";
 
-export default function MovieReviews() {
-  const [movies, setMovies] = useState(data.movies);
-
+export default function MovieReviews({ movieList }) {
   const removeMovie = (movieID) => {
-    setMovies((current) => current.filter((movie) => movie.id != movieID));
+    movieList.setMovies((current) =>
+      current.filter((movie) => movie.id != movieID)
+    );
   };
 
   return (
     <div className="d-flex flex-wrap gap-5 justify-content-center m-3">
-      {movies.map((movie) => (
-        <Card style={{ width: "12em" }} key={movie.id}>
+      {movieList.movies.map((movie) => (
+        <Card style={{ width: "15em" }} key={movie.id}>
           <Card.Img variant="top" src={movie.movieImg} />
           <Card.Body>
             <Card.Title>{movie.name}</Card.Title>
