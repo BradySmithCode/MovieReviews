@@ -1,0 +1,60 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "name": "Winnie The Pooh Blood and Honey",
+            "releaseDate": 2023,
+            "actors": ["Maria Taylor","Carig David Dowsett", "Chris Cordell"],
+            "movieImg": "https://mediafiles.cineplex.com/Central/Film/Posters/34692_768_1024.jpg",
+            "rating": 4.6
+        },
+        {
+            "id": 2,
+            "name": "Knock at the Cabin",
+            "releaseDate": 2023,
+            "actors": ["Dave Bautista","Jonathan Groff", "Rupert Grint"],
+            "movieImg": "https://www.cineplex.com/_next/image?url=https%3A%2F%2Fmediafiles.cineplex.com%2FCentral%2FFilm%2FPosters%2F33572_320_470.jpg&w=1200&q=75",
+            "rating": 6.4
+        },
+        { 
+            "id": 3,
+            "name": "The Wedding Guest",
+            "releaseDate": 2019,
+            "actors": ["Dev Patel","Radhika Apte","Jim Sarbh"],
+            "movieImg": "https://cineplex.cpxstoreimages.com/cineplex?set=imageSize[large550],imageURL[https%3A%2F%2Fcineplex-cdn5.dmlib.com%2Fu%2FAssets%2Fa1%2F0A%2F4E%2Fa1-5478833%2Fs1-38063465%2Fp_800x1200_WeddingGuestThe_En_061819.jpg]&call=url[file:web/sizing]&sink=format[webp],quality[70]",
+            "rating": 5.8
+        },
+        {
+            "id": 4,
+            "name": "Bullet Train",
+            "releaseDate": 2022,
+            "actors": ["Brad Pitt","Joey King", "Aaron Taylor-Johnson"],
+            "movieImg": "https://cineplex.cpxstoreimages.com/cineplex?set=imageSize[large550],imageURL[https%3A%2F%2Fstoremedia.cineplex.com%2F1cineplexstoreassets%2Fposters%2FBullet_Train_V3.jpg]&call=url[file:web/sizing]&sink=format[webp],quality[70]",
+            "rating": 7.3
+        },
+        {
+            "id": 5,
+            "name": "Black Panther",
+            "releaseDate": 2018,
+            "actors": ["Chadwick Boseman","Michael B. Jordan", "Lupita Nyong'o"],
+            "movieImg": "https://cineplex.cpxstoreimages.com/cineplex?set=imageSize[large550],imageURL[http%3A%2F%2Fstoremedia.cineplex.com%2Fstore%2Fpromo%2Fposters%2FBlackPanther_New.jpg]&call=url[file:web/sizing]&sink=format[webp],quality[70]",
+            "rating": 7.3
+        },
+        {
+            "id": 6,
+            "name": "The Batman",
+            "releaseDate": 2022,
+            "actors": ["Robert Pattinson","Jeffery Wright","Colin Farrell"],
+            "movieImg": "https://cineplex.cpxstoreimages.com/cineplex?set=imageSize[large550],imageURL[http%3A%2F%2Fcineplex-cdn5.dmlib.com%2Fu%2FAssets%2FCineplex%2FT3717935%2FV2790278%2FA16353288%2Feng%2F800_1200_jpg%2FPrimary_BoxCover_800_1200.jpg]&call=url[file:web/sizing]&sink=format[webp],quality[70]",
+            "rating": 7.8
+        },
+        {
+            "id": 7,
+            "name": "Top Gun",
+            "releaseDate": 1986,
+            "actors": ["Tom Cruise","Tim Robbins","Kelly McGillis"],
+            "movieImg": "https://cineplex.cpxstoreimages.com/cineplex?set=imageSize[large550],imageURL[https%3A%2F%2Fcineplex-cdn5.dmlib.com%2Fu%2FAssets%2Fa1%2FAC%2F6F%2Fa1-1485382%2Fs1-12873356%2FTopGun_Paramount_EN_800x1200.jpg]&call=url[file:web/sizing]&sink=format[webp],quality[70]",
+            "rating": 6.9
+        }
+    ]
+}
