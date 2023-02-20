@@ -24,7 +24,10 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route exact path="/" element={<MovieReviews movieList={movie} />} />
-        <Route exact path="/add-review" element={<AddMovieReview />} />
+        <Route
+          path="/add-review"
+          element={<AddMovieReview movieList={movie} />}
+        />
       </Routes>
     </BrowserRouter>
   );
